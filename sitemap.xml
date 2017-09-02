@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://buckhunterblinds.com/</loc>
+    <image:image>
+       <image:loc>http://buckhunterblinds.com/assets/imgs/buckhunterblinds-blind-buy-now.png</image:loc>
+       <image:caption>Buck Hunter Blinds are the hunter’s choice blinds, constructed with military-grade aluminum and extreme insulation, yet are lightweight and portable for quick assembly. Made in the USA.</image:caption>
+    </image:image>
+  </url>
+</urlset>

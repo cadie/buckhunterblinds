@@ -1,0 +1,1302 @@
+html,
+p {
+    font-size: 20px
+}
+
+.sidenav,
+body {
+    overflow-x: hidden
+}
+
+#hero h2,
+a.btn-default,
+h3 {
+    font-weight: 700
+}
+
+#hero h2,
+body,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Archivo Narrow', sans-serif
+}
+
+p {
+    line-height: 26px
+}
+
+h1,
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    color: #fff
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 65px
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 55px
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 30px
+}
+
+a {
+    color: #fe9e1e
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    color: #e77300
+}
+
+.nopad {
+    padding: 0
+}
+
+::selection {
+    background: #ffc68c
+}
+
+::-moz-selection {
+    background: #ffc68c
+}
+
+.small,
+small {
+    font-size: 20px;
+    color: #fff
+}
+
+p.small-callout {
+    font-size: 18px;
+    margin-top: 10px
+}
+
+@media (max-width:991px) {
+    h1 {
+        font-size: 60px;
+        line-height: 60px
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 50px
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700
+    }
+    #contact a.visible-sm.visible-xs {
+        display: none!important
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    #contact a.visible-sm.visible-xs {
+        display: inline-block!important
+    }
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 55px;
+        line-height: 55px
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 45px
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700
+    }
+    #hero h2 {
+        font-size: 38px!important;
+        line-height: 38px!important
+    }
+    #contact a.visible-sm.visible-xs {
+        display: inline-block!important
+    }
+}
+
+@media (max-width:475px) {
+    h1 {
+        font-size: 45px;
+        line-height: 45px
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 35px
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 700
+    }
+    #hero h2 {
+        font-size: 34px!important;
+        line-height: 34px!important
+    }
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #fe8e1e;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 0;
+    font-size: 20px
+}
+
+a.btn-default {
+    background: #fe8e1e;
+    border-radius: 0;
+    border: none;
+    padding: 15px 55px;
+    font-size: 24px;
+    color: #fff
+}
+
+.btn-default.active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.btn-default:hover,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    background: #e77300;
+    color: #fff;
+    outline: 0
+}
+
+a:focus {
+    outline: 0;
+    outline-offset: 0
+}
+
+nav.navbar {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    background: url(../imgs/buckhunterblinds-nav-gradient.png) top center no-repeat;
+    background-size: cover;
+    height: 280px;
+    border-radius: 0
+}
+
+a.navbar-brand {
+    height: inherit;
+    margin: 0;
+    padding: 25px 0 0;
+    margin-left: 0!important
+}
+
+#features,
+#hero a.btn-default {
+    margin-bottom: 50px
+}
+
+a.navbar-brand img {
+    height: 290px;
+    width: auto
+}
+
+nav ul.navbar-nav li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700
+}
+
+nav ul.navbar-nav li.buy-nav-link a:hover {
+    background:#e77300;
+}
+
+nav ul.navbar-nav li.buy-nav-link a {
+    background: #fe8e1e;
+    color: #fff;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 40px;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fe8e1e;
+}
+
+.nav>li>.made-in-usa {
+  color: rgba(255, 255, 255, .7);
+  font-weight: normal;
+}
+
+.nav>li>.made-in-usa:hover {
+  color: rgba(255, 255, 255, .7);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    background-color: #121212;
+    padding-top: 60px;
+    transition: .5s
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: .3s;
+}
+
+#features h3,
+.offcanvas a:focus,
+.sidenav a:hover {
+    color: #fe8e1e
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px
+}
+
+@media screen and (max-height:450px) {
+    .sidenav {
+        padding-top: 15px
+    }
+    .sidenav a {
+        font-size: 18px
+    }
+}
+
+#hero {
+    background: url(../imgs/buckhunterblinds-hero-bg.jpg) center bottom no-repeat;
+    background-size: cover
+}
+
+.hero-content {
+    padding-top: 400px;
+}
+
+#home #hero h1 {
+  	text-shadow: 2px 2px 8px #121212;
+}
+
+#home #hero h2 {
+    text-shadow: 2px 2px 8px #121212;
+    line-height: 58px;
+    font-size: 52px;
+}
+
+#hero h2 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#features {
+    text-align: center;
+    margin-top: 20px
+}
+
+#features h2 {
+	color: #121212;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#specs .table-container h2,
+.specs-table td {
+    text-align: right
+}
+
+.img-container {
+    height: 110px;
+    margin-top: 45px
+}
+
+#features h3 {
+    margin-bottom: 15px
+}
+
+#specs {
+    background: url(../imgs/buckhunterblinds-scout-our-blind-bg.png) center bottom no-repeat;
+    background-size: cover;
+    min-height: 930px;
+    position: relative;
+    z-index: 1
+}
+
+#specs .container,
+#specs .left-side {
+    position: relative;
+    height: 880px
+}
+
+#specs .scout-our-blind-image-container {
+    position: absolute;
+    bottom: 50px
+}
+
+#specs .table-container {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    max-width: 600px
+}
+
+#specs .specs-header:after {
+    content: 'hey';
+    position: absolute;
+    background: url(../imgs/specs-overlay.png) top center repeat-x;
+    width: 35%;
+    right: 17px;
+    top: 60px
+}
+
+.specs-table .table {
+    color: #fff;
+    font-size: 20px
+}
+
+.specs-table th {
+    font-weight: 400;
+    padding-left: 0!important
+}
+
+.panel-title,
+p.testimonial-cite {
+    font-weight: 700
+}
+
+.specs-table td {
+    padding-right: 0!important
+}
+
+.specs-table td:hover {
+    cursor: default
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #fff
+}
+
+.specs-table tr:last-child td,
+.specs-table tr:last-child th {
+    border-bottom: 1px solid #fff
+}
+
+.ul-scout-blind-nodes {
+    position: absolute;
+    list-style: none;
+    top: 0;
+    z-index: 99999
+}
+
+.ul-scout-blind-nodes li {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute
+}
+
+.ul-scout-blind-nodes #wallPanels {
+    top: 327px;
+    left: 90px
+}
+
+.ul-scout-blind-nodes #sealedPerimeter {
+    top: 299px;
+    left: 234px
+}
+
+.ul-scout-blind-nodes #temperedGlassWindows {
+    top: 142px;
+    left: 90px
+}
+
+.ul-scout-blind-nodes #rainProofRoof {
+    top: -12px;
+    left: 415px
+}
+
+.ul-scout-blind-nodes #multifunctionCarpeting {
+    top: 374px;
+    left: 390px
+}
+
+.ul-scout-blind-nodes #protectedExterior {
+    top: 252px;
+    left: 428px
+}
+
+.ul-scout-blind-nodes #concealedInterior {
+    top: 185px;
+    left: 170px
+}
+
+.ul-scout-blind-nodes #keyedLockingDoor {
+    top: 167px;
+    left: 339px
+}
+
+.scout-blind-bg {
+    color: #121212;
+    padding: 20px;
+    margin-top: 190px;
+    background: rgba(255, 255, 255, .5);
+    position: relative
+}
+
+#boxEight:before,
+#boxFive:before,
+#boxFour:before,
+#boxOne:before,
+#boxSeven:before,
+#boxSix:before,
+#boxThree:before,
+#boxTwo:before {
+    position: absolute;
+    top: 0;
+    z-index: 999
+}
+
+#boxOne:before {
+    content: url(../imgs/insulated-wall-panels.png);
+    left: -493px
+}
+
+#boxTwo:before {
+    content: url(../imgs/sealed-corners.png);
+    left: -354px
+}
+
+#boxThree:before {
+    content: url(../imgs/acrylic-windows.png);
+    left: -491px
+}
+
+#boxFour:before {
+    content: url(../imgs/rain-proof.png);
+    left: -167px
+}
+
+#boxFive:before {
+    content: url(../imgs/multi-functioning-carpeting.png);
+    left: -193px
+}
+
+#boxSix:before {
+    content: url(../imgs/protected-exterior.png);
+    left: -154px
+}
+
+#boxSeven:before {
+    content: url(../imgs/concealed-interior.png);
+    left: -413px
+}
+
+#boxEight:before {
+    content: url(../imgs/keyed-locking-door.png);
+    left: -243px
+}
+
+#specs p.small,
+#specs-mobile,
+.tier-4 {
+    position: relative
+}
+
+.scout-blind-bg p {
+    margin-bottom: 0
+}
+
+.scout-blind-headline {
+    font-size: 22px;
+    margin-bottom: 5px!important
+}
+
+@media (max-width:1200px) {
+    #specs .scout-our-blind-image-container {
+        bottom: 40px
+    }
+    #specs p.small {
+        font-size: 18px
+    }
+    .scout-blind-bg {
+        margin-top: 180px
+    }
+    #boxOne:before {
+        content: url(../imgs/insulated-wall-panels-mobile.png);
+        left: -343px
+    }
+    #boxTwo:before {
+        content: url(../imgs/sealed-corners-mobile.png);
+        left: -228px
+    }
+    #boxThree:before {
+        content: url(../imgs/acrylic-windows-mobile.png);
+        left: -392px
+    }
+    #boxFour:before {
+        content: url(../imgs/rain-proof-mobile.png);
+        left: -290px
+    }
+    #boxFive:before {
+        content: url(../imgs/multi-functioning-carpeting-mobile.png);
+        left: -162px
+    }
+    #boxSix:before {
+        content: url(../imgs/protected-exterior-mobile.png);
+        left: -160px
+    }
+    #boxSeven:before {
+        content: url(../imgs/concealed-interior-mobile.png);
+        left: -151px
+    }
+    #boxEight:before {
+        content: url(../imgs/keyed-locking-door-mobile.png);
+        left: -302px
+    }
+}
+
+#specs-mobile {
+    background: url(../imgs/buckhunterblinds-scout-our-blind-mobile-bg.png) center bottom no-repeat;
+    background-size: cover;
+    min-height: 930px;
+    z-index: 1
+}
+
+#specs-mobile .table-container {
+    margin-bottom: 100px
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.panel-default {
+    border-color: #fff
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 15px;
+    border-radius: 0;
+    cursor: pointer
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: inherit
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #fff
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #fff
+}
+
+.panel-body {
+    padding: 15px;
+    color: #fff
+}
+
+.panel-body p {
+    font-size: 18px;
+    line-height: 24px
+}
+
+.scout-our-blind-image-container {
+    width: 85%;
+    margin: 25px auto
+}
+
+#specs-mobile h2 {
+    text-align: center;
+    margin-top: 30px
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+    #specs .scout-our-blind-image-container {
+        bottom: 120px
+    }
+    .ul-scout-blind-nodes #temperedGlassWindows {
+        top: 132px;
+        left: 90px
+    }
+    .ul-scout-blind-nodes #sealedPerimeter {
+        top: 339px;
+        left: 206px
+    }
+    .ul-scout-blind-nodes #rainProofRoof {
+        top: -12px;
+        left: 385px
+    }
+    .ul-scout-blind-nodes #multifunctionCarpeting {
+        top: 346px;
+        left: 279px
+    }
+    .ul-scout-blind-nodes #protectedExterior {
+        top: 262px;
+        left: 368px
+    }
+    .ul-scout-blind-nodes #concealedInterior {
+        top: 165px;
+        left: 150px
+    }
+    .ul-scout-blind-nodes #keyedLockingDoor {
+        top: 153px;
+        left: 309px
+    }
+    #boxOne:before {
+        content: url(../imgs/insulated-wall-panels-mobile.png);
+        left: -392px
+    }
+    #boxTwo:before {
+        content: url(../imgs/sealed-corners-mobile.png);
+        left: -276px
+    }
+    #boxThree:before {
+        content: url(../imgs/acrylic-windows-mobile.png);
+        left: -391px
+    }
+    #boxFour:before {
+        content: url(../imgs/rain-proof-mobile.png);
+        left: -98px
+    }
+    #boxFive:before {
+        content: url(../imgs/multi-functioning-carpeting-mobile.png);
+        left: -204px
+    }
+    #boxSix:before {
+        content: url(../imgs/protected-exterior-mobile.png);
+        left: -113px
+    }
+    #boxSeven:before {
+        content: url(../imgs/concealed-interior-mobile.png);
+        left: -330px
+    }
+    #boxEight:before {
+        content: url(../imgs/keyed-locking-door-mobile.png);
+        left: -174px
+    }
+}
+
+.tier-4 {
+    background: #121212;
+    margin-top: -90px;
+    padding: 120px 0 100px;
+    color: #fff
+}
+
+.tier-4 a.btn.btn-default,
+.tier-4 p,
+.youtube-video {
+    margin-top: 20px
+}
+
+.play-btn {
+    position: absolute;
+    right: 380px;
+    top: 240px
+}
+
+.modal-dialog {
+    margin-top: 55px
+}
+
+.modal-content {
+    border-radius: 0;
+    box-shadow: none!important;
+    border: 0!important
+}
+
+.modal-body {
+    padding: 25px
+}
+
+button.close {
+    text-shadow: none;
+    font-size: 30px;
+    position: absolute;
+    right: -22px;
+    color: #fff;
+    top: -20px;
+    padding: 10px 20px 14px;
+    background: #d4d4d4;
+    opacity: 1;
+    border-radius: 50%
+}
+
+#testimonials {
+    padding: 50px 0
+}
+
+#testimonials h2 {
+    color: #121212
+}
+
+.testimonial-quote:after,
+.testimonial-quote:before {
+    font-size: 115px;
+    display: inline;
+    position: absolute;
+    top: -35px;
+    color: #fe8e1e
+}
+
+.slick-initialized .slick-slide,
+.slick-slide img {
+    display: inline
+}
+
+.testimonial-quote {
+    margin-top: 30px;
+    padding: 15px 40px 10px 110px;
+    background: #ffcb98;
+    margin-left: -70px;
+    z-index: -1
+}
+
+.testimonial-quote:before {
+    content: '“';
+    left: 70px
+}
+
+.testimonial-quote:after {
+    content: '”';
+    left: 715px
+}
+
+@media (max-width:1199px) {
+    .testimonial-quote:after {
+        left: 590px
+    }
+}
+
+@media (max-width:991px) {
+    .testimonial-quote:before {
+        left: 10px
+    }
+    .testimonial-quote:after {
+        left: 680px
+    }
+    .testimonial-quote {
+        margin-top: 10px;
+        padding: 15px 30px 10px 50px;
+        margin-left: 0
+    }
+}
+
+.tier-6 {
+    background: url(../imgs/buckhunterblinds-buynow-bg.png) bottom center no-repeat #eee;
+    background-size: cover;
+    padding: 60px 0 160px;
+    color: #fff;
+    position: relative
+}
+
+.tier-6 .buynow-logo-container img {
+    opacity: .7;
+    max-height: 180px
+}
+
+.tier-6 h2 {
+    margin-top: 62px
+}
+
+.tier-6 .buybutton-container {
+    margin-top: 50px
+}
+
+.tier-6 .bb-title {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px
+}
+
+.tier-6 .bb-price {
+    font-size: 24px;
+    margin-bottom: 20px
+}
+
+.tier-6 .form-group {
+    margin-top: 30px
+}
+
+.tier-6 .submit-btn {
+    padding: 10px;
+    margin-top: 10px
+}
+
+.buy-now-blind-image-mobile {
+    display: none
+}
+
+.tier-7 {
+    background: #eee;
+    text-align: center;
+    padding: 30px 0 60px
+}
+
+.tier-7 h2 {
+    color: #121212;
+    margin-bottom: 25px;
+    margin-top: 0
+}
+
+.tier-7 p {
+    margin-bottom: 30px
+}
+
+.contact-container {
+    padding-bottom: 20px
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+    padding: 6px 15px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #e2e2e2;
+    background-image: none;
+    border: 1px solid #bdbdbd;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control:focus {
+    border-color: #fe8e1e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #fe8e1e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #fe8e1e
+}
+
+footer {
+    background: #121212;
+    padding: 30px 0
+}
+
+.social-media a {
+    font-size: 22px;
+    margin-right: 15px;
+    color: #fff
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px
+}
+
+footer p a,
+footer p a:hover {
+    color: #fe8e1e
+}
+
+@media (max-width:1199px) {
+    .tier-6 h2 {
+        margin-top: 42px
+    }
+    #buy-button {
+        padding-left: 20px
+    }
+}
+
+#assembly-instructions h1 {
+	color: #121212;
+}
+
+#assembly-instructions .container.hero-content.text-center {
+	padding-top: 210px;
+  padding-bottom: 30px;
+  position: inherit
+}
+
+#assembly-instructions h2 {
+	color: #fe8e1e;
+	margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+#assembly-instructions #hero p {
+	margin-bottom: 30px;
+}
+
+#assembly-instructions #lost {
+	background: #fe8e1e;
+	color: #fff;
+	padding: 40px 0;
+}
+
+#assembly-instructions h3 {
+	font-size: 34px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	line-height: 40px;
+}
+
+#lost .download-sheet-click {
+  margin: 0 auto;
+  position: relative;
+  width: 40%;
+}
+
+#lost .download-sheet-click a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+	background: rgba(18, 18, 18, .75);
+	padding: 15px 0;
+}
+
+#lost .download-sheet-click a:hover {
+	background: #121212;
+}
+
+#lost p {
+	margin-bottom: 20px;
+}
+
+#callout {
+	padding: 50px 0;
+}
+
+#callout p {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+  .nav>li>a {
+  	padding: 10px 10px;
+  }
+}
+
+@media (min-width:501px) and (max-width:767px) {
+  #assembly-instructions .container.hero-content.text-center {
+  	padding-top: 260px; }
+}
+
+@media (max-width:525px) {
+  #assembly-instructions h1 {
+  	font-size: 38px;
+  	line-height: 44px;
+  }
+}
+
+h2 span.made-in-usa {
+	font-size: 24px;
+}
+
+@media (max-width:768px) {
+  #lost .download-sheet-click {
+  	width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  #lost .download-sheet-click {
+  	width: 60%;
+  }
+  #lost .download-sheet-click a {
+  	font-size: 20px;
+  }
+}
+
+@media (max-width:400px) {
+  #lost .download-sheet-click {
+  	width: 70%;
+  }
+}
+
+#fourohfour #hero,
+#fourohfour nav.navbar, #assembly-instructions #hero, #assembly-instructions nav.navbar {
+    background: 0 0
+}
+
+#fourohfour nav ul.navbar-nav li a, #assembly-instructions nav ul.navbar-nav li a {
+    color: #121212
+}
+
+#fourohfour nav ul.navbar-nav li a:hover {
+    color: #5a5a5a
+}
+
+#fourohfour .container.hero-content.text-center {
+    padding-top: 280px;
+    padding-bottom: 30px;
+    position: inherit
+}
+
+#fourohfour #hero img.img-responsive, #assembly-instructions #hero img.img-responsive {
+    margin: 0 auto 40px
+}
+
+#fourohfour #hero p {
+    margin-bottom: 30px
+}
+
+#fourohfour nav ul.navbar-nav li.buy-nav-link a, #assembly-instructions nav ul.navbar-nav li.buy-nav-link a {
+    color: #fff;
+}
+
+#fourohfour .navbar-toggle .icon-bar, #assembly-instructions .navbar-toggle .icon-bar {
+    background: #121212
+}
+
+#thank-you footer {
+    background: #fff;
+    padding-top: 5px
+}
+
+#thank-you footer p {
+    color: #121212
+}
+
+#thank-you .social-media a {
+    color: #fe8e1e
+}
+
+#thank-you ul.nav.navbar-nav.navbar-right {
+    display: none
+}
+
+@media (max-width:991px) {
+    a.navbar-brand img {
+        height: 230px
+    }
+    .tier-6 {
+        padding-top: 30px;
+        background-image: url(../imgs/buckhunterblinds-buynow-bg-mobile.png)
+    }
+    .tier-6 h2 {
+        margin-top: 60px
+    }
+    .buynow-logo-container img {
+        max-height: 200px
+    }
+    div#buy-button {
+        padding-left: 0;
+        margin-left: 70px
+    }
+    #testimonials {
+        padding: 20px 0
+    }
+    #testimonials h2 {
+        margin-top: 0
+    }
+    .tier-4 {
+        background: #121212;
+        padding-bottom: 40px
+    }
+    div#assemble-video-mobile {
+        background: url(../imgs/buckhunterblinds-video-bg-mobile.png) top center no-repeat;
+        min-height: 330px;
+        background-size: cover;
+        margin-top: 40px;
+        position: relative
+    }
+    .play-btn-mobile {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 110px
+    }
+}
+
+@media (max-width:767px) {
+    a.navbar-brand {
+        padding-top: 15px;
+        width: 100%
+    }
+    a.navbar-brand img {
+        margin: 0 auto!important
+    }
+    .navbar-toggle {
+        margin-top: 40px;
+        margin-right: 35px;
+        position: absolute;
+        float: none;
+        right: 0
+    }
+    .navbar-toggle .icon-bar {
+        width: 26px;
+        height: 4px;
+        border-radius: 0;
+        background: #fff
+    }
+    .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 5px
+    }
+    #hero {
+        background: url(../imgs/buckhunterblinds-hero-mobile-bg.jpg) left bottom no-repeat;
+        background-size: cover
+    }
+    .hero-content {
+        bottom: 20px;
+        position: absolute;
+        padding-bottom: 20px;
+        text-align: center
+    }
+    div#bs-example-navbar-collapse-1 {
+        background: #121212;
+        margin-top: 20px;
+        border: 0
+    }
+    div#buy-button {
+        padding-left: 15px;
+        margin-left: 0;
+        padding-right: 15px
+    }
+    .tier-6 {
+        padding-bottom: 120px;
+        padding-top: 15px
+    }
+    .tier-6 .bb-title {
+        font-size: 28px;
+        line-height: 28px
+    }
+    .buy-now-blind-image img {
+        width: 100%
+    }
+    .tier-4 a.btn.btn-default {
+        padding: 15px;
+        font-size: 22px
+    }
+    .tier-6 h2 {
+        margin-top: 30px
+    }
+}
+
+@media (max-width:500px) {
+    .tier-6 h2 {
+        margin-top: 40px
+    }
+    .buy-now-blind-image img {
+        display: none
+    }
+    #buy-button {
+        width: 100%
+    }
+    .buy-now-blind-image-mobile {
+        display: block;
+        margin-bottom: 20px
+    }
+    .tier-6 .buybutton-container {
+        margin-top: 10px;
+        text-align: right
+    }
+    a.navbar-brand img {
+        height: 180px
+    }
+}
+
+@media (max-width:400px) {
+    .tier-6 h2 {
+        margin-top: 30px
+    }
+}
+
+@media (max-height:776px) {
+    .hero-content {
+        padding-top: 360px
+    }
+}
+
+@media (max-height:768px) {
+    .hero-content {
+        padding-top: 300px
+    }
+}
+
+@media (max-height:600px) {
+    .hero-content h1 {
+        font-size: 36px;
+        line-height: 36px
+    }
+    .hero-content h2 {
+        font-size: 28px!important;
+        line-height: 28px!important
+    }
+    a.btn-default {
+        padding: 10px 55px
+    }
+}
